@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.page2{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.page3{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.page4{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    
+}
+.page5{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+    /**THIS IS PAGE 1 CSS**/   
+
+.background-clip{
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    z-index: -1;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+@media (min-aspect-ratio:18/5){
+    .background-clip{
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+    }
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 45px;   
+}
+.logo{
+    color: white;
+    font-size: 70px;
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+span1{
+    color: #f9804d;
+}
+span2{
+    color: #ffffff;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f98004;
+    transition: .4s;
+
+}
+.btn{
+    background-color:#f98004;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.3);
+}
+.page2 span{
+    color:#f9004d
+}
+/**THIS IS PAGE 2 CSS**/
+.background-clip{
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    z-index: -1;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+}
+@media (min-aspect-ratio:18/5){
+    .background-clip{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.btn{
+    background-color:#f98004;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;    
+}
+.btn:hover{
+    transform: scale(1.3);
+}
+.apply{
+    transform: translate(600px,650px);
+    
+}
+/**THIS IS PAGE 3 CSS**/
+.page3 video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    z-index: -1;
+    position:absolute;
+    padding-top: 70px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+}
+@media (min-aspect-ratio:18/5){
+    .background-clip{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.btn{
+    background-color:#f98004;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;    
+}
+.btn:hover{
+    transform: scale(1.3);
+}
+.apply{
+    transform: translate(600px,650px);
+    
+}
+/**THIS IS PAGE 4 CSS**/
+.page4 video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    z-index: -1;
+    position:absolute;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+@media (min-aspect-ratio:18/5){
+    .background-clip{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.btn{
+    background-color:#f98004;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;    
+}
+.btn:hover{
+    transform: scale(1.3);
+}
+.apply{
+    transform: translate(600px,650px);
+    
+}
+.page5 video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    z-index: -1;
+    position:absolute;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+@media (min-aspect-ratio:18/5){
+    .background-clip{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.btn{
+    background-color:#f98004;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    
+    
+}
+.btn:hover{
+    transform: scale(1.3);
+}
+.apply{
+    transform: translate(600px,650px);  
+}
+.page6 img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    z-index: -1;
+    position:absolute;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
